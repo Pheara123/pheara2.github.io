@@ -1,0 +1,32 @@
+.contentner > main > .benner {
+    width: 100%;
+    padding: var(--padd);
+    background-color: var(--banner-color);
+    height: 414px;
+    box-shadow: 0 2px 10px black;
+    position: relative;
+}
+.contentner > main > .benner > .image{
+    width: 100%;
+    height: 100%;
+    animation: imageRender 10s linear infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes imageRender{
+    0%{
+        background-image: url(/assets/img/banner-acleda1.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(/assets/img/banner-acleda2.jpg);
+        background-size: cover;
+    }
+    70%{
+        background-image: url(/assets/img/banner-acleda3.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/assets/img/banner-acleda1.jpg);
+        background-size: cover;
+    }
+}

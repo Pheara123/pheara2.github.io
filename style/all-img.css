@@ -1,0 +1,32 @@
+.contentner>  main > .row-card{
+    width: 100%;
+    padding: 40px 180px;
+    background-color: var(--body-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contentner>  main > .row-card > .card{
+    width: 47%;
+    margin: 40px 0;
+}
+.contentner>  main > .row-card > .card > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.contentner>  main > .row-card > .card > a{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: #A9CBF1;
+    font-family: firaSans, Verdana, sans-serif;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contentner>  main > .row-card > .card > a:hover{
+    color: #fff;
+    text-decoration: underline;
+}

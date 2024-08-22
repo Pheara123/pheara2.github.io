@@ -1,0 +1,30 @@
+/* link google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+a,span{
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-montserrat);
+}
+body{
+  background-color: var(--body-color);
+}
+:root {
+  --font-montserrat: "Montserrat", sans-serif;
+  --nav-footer-color: #1b3351;
+  --menu-color: #122133;
+  --body-color: #091521;
+  --hover-color: #cea939;
+  --banner-color: #1b2232;
+  --padd: 0 180px;
+}
+.contentner{
+    width: 100%;
+    background-color: var(--body-color);
+    height: 100vh;
+}

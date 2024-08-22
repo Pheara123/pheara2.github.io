@@ -1,0 +1,227 @@
+.contentner > header{
+    width: 100%;
+    height: 21%;
+}
+
+.contentner > header > nav{
+    width: 100%;
+    height: 21%;
+    z-index: 3;
+    position: fixed;
+}
+.contentner > header > nav > .top-nav{
+    width: 100%;
+   height: 68%;
+   padding: 0 180px;
+   position: relative;
+   display: flex;
+   box-shadow: 0 3px 5px black;
+   background-color: #1b3351; 
+}
+.contentner > header > nav > .top-nav > .logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contentner > header > nav > .top-nav > .head-menu {
+    width: 50%;
+    height: 100%;
+}
+.contentner > header nav > .top-nav > .head-menu > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li{
+    list-style: none;
+    position: relative;
+    padding: 15px 8px 15px 10px;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > img{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+.contentner > header > nav > .top-nav  > .head-menu > ul > li:nth-child(4) > a,
+.contentner > header > nav > .top-nav > .head-menu > ul > li:nth-child(4) > span{
+    color: darkgoldenrod;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li:hover:nth-child(4) > span{
+    color: darkgoldenrod;
+    transform: rotate(180deg);
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li:hover{
+    background-color: var(--body-color);
+   
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > span,
+.contentner > header > nav > .menu > .menu1 > ul > li > span{
+    color: white;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.contentner > header > nav >.top-nav  > .head-menu > ul > li > #down,
+.contentner > header > nav > .menu > .menu1 > ul > li > #down{
+    color: white;
+    vertical-align: middle;
+}
+.contentner > header > nav  > .top-nav > .head-menu > ul > li:hover > #down,
+.contentner > header > nav > .menu > .menu1 > ul > li:hover > #down{
+    color: white;
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > a{
+    text-decoration: none;
+    font-family: var(--font-montserrat);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li:hover > .dropdown{
+    height: 250px;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li:hover:nth-child(4) > .dropdown{
+    height: 90px;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown{
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    width: 243px;
+    height: 0px;
+    list-style: none;
+    right: 0px;
+    top: 49px;
+    background-color: var(--menu-color);
+    text-align: right;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown  > li:first-child{
+    border-top: 1px solid gray;
+    padding-left: 20px;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown  > li {
+    padding: 8px 12px;
+}   
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown > li > a{
+    font-weight: 400;   
+    font-size: 12px;
+    text-decoration: none;
+    font-family: var(--font-montserrat);
+    color: white;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown  > li:hover > a{
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+.contentner > header > nav > .top-nav > .head-menu > ul > li > .dropdown > li:nth-child(5){
+    border-bottom: 1px solid gray;
+}
+.contentner > header > nav > .menu{
+    width: 100%;
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-between;
+   height: 32%;
+   border-bottom: 1.5px solid white;
+   box-shadow: 0 2px 5px black;
+   background-color: var(--menu-color); 
+}
+.contentner > header > nav > .menu > .menu1{
+    width: 50%;
+    height: 100%;
+}
+.contentner > header > nav > .menu > .menu1 > ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li{
+    position: relative;
+    list-style: none;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li > a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+    color: white;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover > #down{
+    color: darkgoldenrod;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover > a {
+    transition: 0.3s ease-in;
+    color: darkgoldenrod;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover:nth-child(1) > .dropdown {
+    height: 300px;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover:nth-child(3) > .dropdown {
+    height: 230px;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover > .dropdown {
+    height: 245px;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li:hover:nth-child(4) > .dropdown {
+    height: 488px;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li > .dropdown{
+    position: absolute;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+    width: 243px;
+    height: 0px;
+    list-style: none;
+    left: 0;
+    top: 39px;
+    background-color: var(--menu-color);
+    text-align: left;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li > .dropdown > li:nth-child(1){
+    border-top: 1px solid darkgoldenrod;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li > .dropdown > li{
+    padding: 8px 12px;
+}
+.contentner > header > nav > .menu > .menu1 > ul > li .dropdown > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: var(--font-montserrat);
+}
+.contentner > header > nav > .menu > .menu1 > ul > li .dropdown > li:hover > a{
+    color: var(--hover-color);
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+}
+.contentner > header > nav > .menu > .menu2{
+  position: relative;
+}
+.contentner > header > nav > .menu > .menu2 > .rate{
+    display: flex;
+    height: 100%;
+    /* position: absolute; */
+    /* right: 270px; */
+    
+}
+.contentner > header > nav > .menu > .menu2 > .rate > li{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    font-family: var(--font-montserrat);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.contentner > header > nav > .menu > .menu2 > .rate > li {
+    margin-right: 8px;
+}
+.contentner > header > nav > .menu > .menu2 > .rate > li > img{
+    width: 20px;
+    height: 15px;
+}
